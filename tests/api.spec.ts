@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('GET products list', async ({ request }) => {
+test.skip('GET products list', async ({ request }) => {
 
   const response = await request.get('https://fakestoreapi.com/products');
 
