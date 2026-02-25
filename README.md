@@ -23,6 +23,6 @@ Run tests:
 
 npx playwright test
 
-## CI/CD
+## CI/CD 
 
 Tests run automatically on GitHub Actions.
